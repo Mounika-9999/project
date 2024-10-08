@@ -1,0 +1,157 @@
+@media only screen and (max-width: 1140px) {
+  .nav-list {
+    flex-direction: column;
+  }
+  .navbar {
+    flex-direction: column;
+    transition: all 0.7s ease-out;
+    /* height: 447px; */
+  }
+  .rightNav {
+    text-align: center;
+  }
+  /* #search {
+    width: 68%;
+  } */
+  .burger {
+    display: block;
+  }
+  .h-nav-resp {
+    height: 72px;
+  }
+  .v-class-resp {
+    opacity: 0;
+  }
+  .box-main {
+    flex-direction: column-reverse;
+    max-width: 100%;
+  }
+  .form {
+    max-width: 62%;
+  }
+  .section {
+    flex-direction: column-reverse;
+  }
+  .text-big {
+    text-align: center;
+  }
+  .text-small {
+    text-align: center;
+  }
+  .paras {
+    padding: 0px;
+  }
+
+  /* .logo img {
+    width: 25%;
+  } */
+}
+
+/* ------swiper-section------ */
+
+@media (min-width: 1200px) {
+  .product-container {
+    max-width: 130rem;
+  }
+  .product-card-list .product-card-item .product-image {
+    width: 180px;
+    height: 180px;
+  }
+}
+@media (max-width: 992px) {
+  .product-container {
+    max-width: 110rem;
+  }
+  .product-card-list .product-card-item .product-image {
+    width: 180px;
+    height: 180px;
+  }
+}
+@media (max-width: 768px) {
+  .slider-wrapper {
+    margin: 0 10px 40px;
+  }
+
+  .slider-wrapper .swiper-slide-button {
+    display: none;
+  }
+  .product-slider-wrapper {
+    margin: 0 10px 40px;
+  }
+  .product-slider-wrapper .swiper-slide-button {
+    display: none;
+  }
+  .product-container {
+    max-width: 90rem;
+  }
+  .product-card-list .product-card-item .product-image {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media (max-width: 576px) {
+  .product-container {
+    max-width: 80rem;
+  }
+  .product-card-list .product-card-item .product-image {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@media (max-width: 400px) {
+  .product-container {
+    max-width: 70rem;
+  }
+  .product-card-list .product-card-item .product-image {
+    width: 150px;
+    height: 150px;
+  }
+}
+/* ------swiper-section------ */
+/* ------------header-logo---------- */
+
+@media (max-width: 1012px) {
+  .header {
+    flex-direction: column;
+  }
+
+  .search-container {
+    width: 100%;
+    margin-top: 0rem;
+    margin-bottom: 1rem;
+  }
+
+  .navbar {
+    padding: 0.3rem;
+  }
+  .header input[type="text"] {
+    padding: 0.6rem 0rem 0.3rem 1rem;
+  }
+
+  .offersHeader {
+    justify-content: center;
+  }
+  .card-deck {
+    margin: 0rem;
+  }
+  .responsivesocialMedia {
+    display: none;
+  }
+  .search-container button {
+    display: none;
+  }
+  .header .whatsapp a {
+    top: 3rem;
+  }
+  .responsiveWhatsapp {
+    display: block;
+  }
+  .header .whatsappButton {
+    display: none;
+  }
+  .offersHeader .needUs {
+    margin-left: 0rem;
+  }
+}
